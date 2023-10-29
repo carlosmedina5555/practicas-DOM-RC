@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Mi Agenda</title>
+</head>
+
+<body>
+    <main>
+        <h1>Mi Agenda</h1>
+        <form>
+            <input id="titulo" class="form-inputs completo" type="text" value="" placeholder="Ingrese el titulo" minlength="4" maxlength="40">
+            <div>
+            <div>
+            <select id="opcionDato" class="form-inputs">
+                <option value="" selected disabled>Ingrese una opcion</option>
+                <option value="ingreso">Ingreso</option>
+                <option value="egreso">Gasto</option>
+            </select>   
+            <input id="monto" class="form-inputs" type="text" value="" placeholder="Ingrese el monto">
+            <button class="btn-form" type="submit" id="btn-anotar">Anotar</button>
+            </div>
+        </form>
+        <section class="mis-datos">
+            <h2 class="titleIngresos">Mis Ingresos</h2>
+
+            <div id="ingresosHTML" class="datos">
+               
+                
+            </div>
+            <h2 class="titleEgresos">Mis Gastos</h2>
+            <div id="egresosHTML" class="datos">
+                
+            </div>
+        </section>
+        <div class="total">
+            <label>MI TOTAL</label>
+            <input id="total" class="form-inputs ancho" type="text" value="0" readonly>
+        </div>
+    </main>
+    <script src="./js/datos.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

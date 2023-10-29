@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+
+*{
+  font-family: 'Pixelify Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background: url("./fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+}
+
+
+main{
+  background-color: rgba(255, 255, 255, 0.815);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 5rem;
+  box-shadow: 1px 1px 0cap 2px #696969;
+}
+
+main h1{
+  font-weight: 700;
+  margin-top:1rem ;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.completo{
+  width: 100%;
+}
+
+.form-inputs{
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 2rem 1rem;
+  border: none;
+  box-shadow: 1px 1px 0cap 2px #696969;
+}
+
+.btn-form{
+  font-size: 2rem;
+  border: none; 
+  padding: 0.5rem;
+  margin-left: 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: #108DE0;
+  box-shadow: 1px 1px 1px 2px #085181;
+}
+
+.btn-form:active{
+  transform: translateY(0.1rem);
+  box-shadow: inset 1px 1px 1px 2px #085181;
+}
+
+.mis-datos h2{
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.dato{
+  width: 500px;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dato p{
+  font-size: 2rem;
+}
+
+.btn-dato{
+  border: none;
+  background-color: #CE372B;
+  padding: 0.8rem;
+  box-shadow: 1px 1px 1px 2px #7b1912;
+}
+
+.btn-dato:active{
+  transform: translateY(0.1rem);
+  box-shadow: inset 1px 1px 1px 2px #7b1912;
+}
+
+.total label{
+  font-size: 3rem;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.titleIngresos{
+  color:#108DE0
+}
+
+.titleEgresos{
+  color: #E76E55
+}
+
+.ancho{
+  font-size: 3rem;
+  width: 70%;
+}
